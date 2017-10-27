@@ -9,10 +9,7 @@ In this codelab, we are going to build out the frontstack.io website into a resp
 1. Make sure you have the following dependencies installed:
 
 - [Node.js & NPM](https://nodejs.org/en/)
-
-(Optional) If you want to use the live-reload server from this project:
-
-- [Gulp.js](https://gulpjs.com/)
+- [Gulp.js](https://gulpjs.com/) (Optional: If you want to use the live-reload server from this project)
 
 2. Clone the `start` directory
 
@@ -26,6 +23,12 @@ or
 
 ```
 yarn install
+```
+
+4. Start server
+
+```
+npm start
 ```
 
 ## Codelab Steps

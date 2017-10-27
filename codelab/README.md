@@ -4,6 +4,12 @@ Speaker: [Ire Aderinokun](https://ireaderinokun.com)
 
 In this codelab, we are going to build out the frontstack.io website into a responsive site.
 
+## Mockups
+
+Desktop | Mobile
+--------|-------
+<img src="desktop.png" width="500px"> | <img src="mobile.png" width="300px">
+
 ## Getting Started
 
 1. Make sure you have the following dependencies installed:

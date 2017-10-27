@@ -1,6 +1,6 @@
 # Responsive Web Design Codelab
 
-Speaker: Ire Aderinokun
+Speaker: [Ire Aderinokun](https://ireaderinokun.com)
 
 In this codelab, we are going to build out the frontstack.io website into a responsive site.
 

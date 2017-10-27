@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-14.000000, -57.000000)" fill="#666666">
+            <g id="Group" transform="translate(14.000000, 57.000000)">
+                <path d="M0,0 L20,0 L18.17792,19.8863636 L10,21.9542403 L1.94574753,19.8863636 L0,0 Z M8.90364583,16.352983 L8.90364583,11.8619792 L13.5869792,11.8619792 L13.5869792,9.88991477 L8.90364583,9.88991477 L8.90364583,6.82410038 L14.0536458,6.82410038 L14.0536458,4.75260417 L6.65364583,4.75260417 L6.65364583,16.352983 L8.90364583,16.352983 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

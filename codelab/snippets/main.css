@@ -1,0 +1,29 @@
+/* Main */
+
+main {
+  /* @todo: Add mobile-size margin for sidebar */
+}
+
+@media (min-width: 600px) {
+  main {
+    /* @todo: Add desktop-size margin for sidebar */
+  }
+}
+
+/* Section */
+
+.section {
+  min-height: 100vh;
+
+  /* @todo: Mobile padding */
+}
+
+@media (min-width: 600px) {
+  .section {
+    /* @todo: Desktop padding */
+  }
+}
+
+.section p {
+  max-width: 600px;
+}

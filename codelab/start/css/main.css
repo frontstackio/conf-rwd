@@ -1,0 +1,143 @@
+/* **********************************************
+ *
+ *   FRONTSTACK.IO
+ *   =============
+ *
+ *   Table of Contents:
+ *      1 - Variables
+ *      2 - Typography
+ *      3 - Layout
+ *      4 - Components
+ *
+ ********************************************** */
+
+/* 1 - Variables ****************************** */
+
+/* NOTE: Support for CSS Variables - http://caniuse.com/#feat=css-variables */
+:root {
+  --theme-colour: #D33257;
+  --theme-colour-light: #F05377;
+  --secondary-colour: #EFC800;
+}
+
+/* 2 - Typography ****************************** */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: #fff;
+  color: rgba(255,255,255,0.7);
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: lowercase;
+  margin-bottom: 25px;
+}
+
+h2::before {
+  content: "<";
+  margin-right: 10px;
+}
+
+h2::after {
+  content: "/>";
+  margin-left: 10px;
+}
+
+h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+h2,
+pre {
+  font-family: "Overpass Mono", monospace;
+}
+
+pre a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 10px;
+  display: block;
+}
+
+a,
+strong {
+  color: var(--theme-colour);
+}
+
+/* 3 - Layout ****************************** */
+
+html {
+  background-color: #181818;
+}
+
+/* Menubar */
+
+/* Sidebar */
+
+/* Main */
+
+/* Footer */
+
+
+/* 4 - Components ****************************** */
+
+/* Logo */
+
+.logo {
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+/* Button */
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  min-width: 150px;
+  background-color: #fff;
+  padding: 0 15px;
+  line-height: 1;
+  color: var(--theme-colour);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+/* Code */
+
+pre {
+  line-height: 1.8;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+pre .tag {
+  font-weight: 600;
+  color: var(--theme-colour);
+}
+
+pre .attr,
+pre .co {
+  font-weight: 600;
+  color: var(--secondary-colour);
+}
+
+pre .val {
+  color: var(--theme-colour-light);
+}

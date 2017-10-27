@@ -1,0 +1,84 @@
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  
+  /* @todo: Position sidebar, mobile width & padding  */
+}
+
+@media (min-width: 600px) {
+  .sidebar {
+    /* @todo: Desktop width and padding */
+  }
+}
+
+.sidebar li {
+  line-height: 35px;
+}
+
+.sidebar a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-weight: 600;
+  height: 35px;
+
+  /* @todo: Justify center */
+}
+
+@media (min-width: 600px) {
+  .sidebar a {
+    /* @todo: Justify left */
+  }
+}
+
+.sidebar a span {
+  margin-left: 0.5em;
+  
+  /* @todo: Hide on mobile */
+}
+
+@media (min-width: 600px) {
+  .sidebar a span {
+    /* @todo: Unhide on desktop */
+  }
+}
+
+.sidebar a:before {
+  content: "";
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  background-color: #666666;
+}
+
+a[href="#about"]:before {
+  -webkit-mask: url(../images/menu-icon-frontstack.svg) no-repeat center;
+  mask: url(../images/menu-icon-frontstack.svg) no-repeat center;
+}
+
+a[href="#forum"]:before {
+  -webkit-mask: url(../images/menu-icon-forum.svg) no-repeat center;
+  mask: url(../images/menu-icon-forum.svg) no-repeat center;
+}
+
+a[href="#meetups"]:before {
+  -webkit-mask: url(../images/menu-icon-meetups.svg) no-repeat center;
+  mask: url(../images/menu-icon-meetups.svg) no-repeat center;
+}
+
+a[href="#sign-up"]:before {
+  -webkit-mask: url(../images/menu-icon-subscribe.svg) no-repeat center;
+  mask: url(../images/menu-icon-subscribe.svg) no-repeat center;
+}
+
+.sidebar a.active,
+.sidebar a:hover,
+.sidebar a:focus {
+  color: #fff;
+}
+
+.sidebar a.active:before,
+.sidebar a:hover:before,
+.sidebar a:focus:before {
+  background-color: var(--theme-colour);
+}

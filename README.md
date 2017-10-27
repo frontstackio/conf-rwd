@@ -6,6 +6,6 @@ This is the repository for the Frontstack meetup on Responsive Web Design.
 
 ## Sessions
 
-1. [Introduction to Responsive Web Design](session-into-to-rwd/README.md)
+1. [Introduction to Responsive Web Design](session-intro-to-rwd/README.md)
 1. [Responsive Web Design Codelab](codelab/README.md)
 1. [Advanced Responsive Web Design](session-advanced-rwd/README.md)

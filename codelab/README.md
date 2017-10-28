@@ -37,6 +37,9 @@ yarn install
 npm start
 ```
 
+## Downloading This Repo
+Alternatively, you can directly download the files to your computer. [Click here to download](https://github.com/frontstackio/conf-rwd/archive/master.zip)
+
 ## Codelab Steps
 
 1. Review repository HTML & CSS
